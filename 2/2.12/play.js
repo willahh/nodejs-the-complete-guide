@@ -6,7 +6,7 @@ const fetchData = callback => {
 
 setTimeout(() => {
     console.log('Timer is done');
-    fetchData((text) => {
+    fetchData((text) => {   
         console.log(text)
     });
 }, 2000); 
